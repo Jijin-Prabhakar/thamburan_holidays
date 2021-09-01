@@ -25,6 +25,7 @@
 
 .modal-body {
   text-align: left !important;
+  padding: 0 40px;
 }
 
 .modal-body > label {
@@ -53,7 +54,17 @@
 }
 
 .modal-body > textarea::placeholder {
-  padding: 10px;
+  padding: 25px 15px;
   font-size: 20px;
   font-family: "Vollkorn", sans-serif;
+}
+
+.modal-footer {
+  padding-right: 50px;
+  border: none;
+  margin-top: 5px;
+}
+
+.modal-footer > button {
+  padding: 5px 5px;
 }
