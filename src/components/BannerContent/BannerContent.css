@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+.bannerContent {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContent_container {
+  color: white;
+  text-align: center;
+}
+
+.bannerContent_container > section > h1 {
+  color: white;
+  font-family: "Besley", sans-serif;
+}
+
+.bannerContent_container > section > p {
+  color: white;
+  font-size: 14px;
+  margin: 3px 0px 0px 0px;
+  letter-spacing: 1px;
+}
+
+.bannerContent_getQuoteButton {
+  color: white;
+  background-color: #f64c08;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 3px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.bannerContent_getQuoteButton:hover {
+  color: #f64c08;
+  background-color: white;
+}

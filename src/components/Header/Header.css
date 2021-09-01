@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+
+.header_container {
+  padding-left: 10px !important;
+  z-index: 2000px !important;
+}
+
+.header_container > .container-fluid > a {
+  font-size: 35px !important;
+  font-family: "Besley", sans-serif !important;
+  font-weight: bolder !important;
+  color: white !important;
+}
+
+.header_container > .container-fluid > a > span {
+  color: #f46c08 !important;
+}
+
+.nav-item > .nav-link {
+  font-size: 16px;
+  color: white !important;
+  margin: 0 5px;
+  font-family: "Roboto Slab", sans-serif;
+  cursor: pointer;
+}
+
+.nav-item > .dropdown-toggle {
+  font-size: 16px;
+  color: white !important;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.dropdown-menu > li > .dropdown-item {
+  font-family: "Roboto Slab", sans-serif;
+}

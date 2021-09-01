@@ -1,0 +1,9 @@
+.bannerContainer {
+  background: url("../../assets/uswallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 60%);
+}

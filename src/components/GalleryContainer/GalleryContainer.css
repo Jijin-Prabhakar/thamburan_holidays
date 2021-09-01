@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@700&display=swap");
+
+.galleryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.1);
+  padding: 80px 0;
+}
+
+.galleryContainer > h1 {
+  margin-bottom: 30px;
+  font-family: "Besley", sans-serif;
+}
+
+.galleryContainer_content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
