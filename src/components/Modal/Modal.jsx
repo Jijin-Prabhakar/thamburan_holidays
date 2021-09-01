@@ -33,19 +33,44 @@ const Modal = () => {
               ></button>
             </div>
             <div className="modal-body">
-              <label htmlFor="#">Name</label>
+              <label htmlFor="#" className=" mb-3">
+                Name
+              </label>
               <br />
-              <input type="text" placeholder="Enter your full name" />
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                className="w-75"
+              />
               <br />
-              <label htmlFor="#">Email Address</label>
+              <label htmlFor="#" className="mt-4 mb-3">
+                Contact Number
+              </label>
               <br />
-              <input type="email" placeholder="Enter your email address" />
+              <input
+                type="text"
+                placeholder="Enter your contact number"
+                className="w-75"
+              />
               <br />
-              <label htmlFor="#">Message</label>
+              <label htmlFor="#" className="mt-4 mb-2">
+                Email Address
+              </label>
+              <br />
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                className="w-75"
+              />
+              <br />
+              <label htmlFor="#" className="mt-4 mb-2">
+                Message
+              </label>
               <br />
               <textarea
                 type="email"
-                placeholder="Please leave your queries and messages here.."
+                placeholder="Please leave your queries and messages here..."
+                className="w-75"
               />
             </div>
             <div className="modal-footer">
