@@ -50,7 +50,18 @@ const ReviewContainer = ({ addReview }) => {
       </div>
       <div className="reviewContainer_inputForm">
         <form action="#" className="review_Container_form mt-5">
-          <input type="text" placeholder="Name.." />
+          <p>
+            Hey everyone!
+            <br />
+            <br />
+            Positive reviews from awesome customers like you help others to feel
+            confident about choosing THAMBURAN HOLIDAYS too. Could you take 60
+            seconds to share your happy experiences ?<br />
+            <br />
+            We will be forever grateful. Thank you in advance for helping us
+            out!
+          </p>
+          <input type="text" placeholder="Enter your name here" />
           <br />
           <textarea
             name="review"
