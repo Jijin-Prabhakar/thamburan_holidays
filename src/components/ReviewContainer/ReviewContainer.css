@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+.review_Container {
+  padding: 100px 0 0 0;
+}
+
+.review_Container > h1 {
+  text-align: center;
+}
+
+.review_Container_mappedItems_form {
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+.reviewsContainer_review {
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+}
+
+.reviewContainer_mappedItems {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.reviewsContainer_review > section {
+  text-align: justify;
+}
+
+.rating_box {
+  margin-bottom: 15px !important;
+}
+
+.rating_box > .MuiRating-readOnly > span {
+  font-size: smaller;
+}
+
+.reviewContainer_inputForm {
+  display: flex;
+  justify-content: center;
+}
+
+.review_Container_form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid silver;
+  padding: 30px 0;
+}
+
+.review_Container_form > input {
+  width: 70%;
+  margin: 5px 0;
+  outline: none;
+  border: none;
+}
+
+.review_Container_form > textarea {
+  width: 70%;
+  height: 100px;
+  outline: none;
+  border: none;
+}
+
+.review_Container_button_section button {
+  background-color: #f64c08;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 3px 10px;
+  margin: 5px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  outline: none;
+  box-shadow: none;
+}
+
+.review_Container_button_section button:hover {
+  color: #f64c08;
+  background-color: white;
+}
