@@ -5,13 +5,19 @@
   align-items: center;
 }
 
+.thamburan_footer_services {
+  text-align: center;
+}
+
 .thamburan_footer_services > p {
-  text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.thamburan_footer_packages {
+  text-align: center;
 }
 .thamburan_footer_packages > p {
-  text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .thamburan_footer_contact > p {
