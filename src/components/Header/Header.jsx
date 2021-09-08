@@ -94,9 +94,9 @@ const Header = () => {
                   className="nav-link"
                   smooth={true}
                   duration={500}
-                  to="contact"
+                  to="about"
                 >
-                  Contact
+                  About
                 </Link>
               </li>
             </ul>

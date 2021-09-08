@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@700&display=swap");
+
+.about_container {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+
+.about_container > div > div > h1 {
+  margin-bottom: 30px;
+  font-family: "Besley", sans-serif;
+}
+.about_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.about_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: justify;
+}

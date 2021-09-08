@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@700&display=swap");
 
 .review_Container {
-  padding: 100px 0 0 0;
+  padding: 120px 0 0 0;
 }
 
 .review_Container > h1 {
   text-align: center;
+  margin-bottom: 30px;
+  font-family: "Besley", sans-serif;
 }
 
 .review_Container_mappedItems_form {

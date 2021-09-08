@@ -7,7 +7,7 @@ import ReviewContainer from "./components/ReviewContainer/ReviewContainer";
 import { useState } from "react";
 import reviewData from "./review.json";
 import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
 
 function App() {
   const [review, setReview] = useState(reviewData);
@@ -23,7 +23,7 @@ function App() {
       <BannerContainer />
       <GalleryContainer />
       <ReviewContainer />
-      <Contact />
+      <About />
       <Footer />
     </div>
   );
