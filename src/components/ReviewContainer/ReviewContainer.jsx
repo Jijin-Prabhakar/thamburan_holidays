@@ -6,21 +6,49 @@ import "./ReviewContainer.css";
 import Rating from "@material-ui/lab/Rating";
 import Box from "@material-ui/core/Box";
 
-const ReviewContainer = ({ addReview }) => {
-  const [userInput, setUserInput] = useState();
-
+const ReviewContainer = () => {
   const [review, setReview] = useState(reviewData);
+  const [userName, setUserName] = useState();
+  const [value, setValue] = useState(3);
+  const [userRating, setUserRating] = useState();
+  const [userReview, setUserReview] = useState();
 
-  const [value, setValue] = React.useState(4);
+  const handleName = (e) => {
+    setUserName(e.target.value);
+  };
 
-  const handleChange = (e) => {
-    setUserInput(e.target.value);
+  const handleRating = (e) => {
+    setUserRating(e.target.value);
+  };
+
+  const handleReview = (e) => {
+    setUserReview(e.target.value);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault(e);
-    addReview(userInput);
-    setUserInput("");
+    // Name
+    addReview(userName);
+    setUserName("");
+    // Rating
+    addReview(userRating);
+    setUserRating("");
+    // Review
+    addReview(userReview);
+    setUserReview("");
+  };
+
+  const addReview = () => {
+    let newReview = [
+      ...review,
+      {
+        id: review.length + 1,
+        rating: userRating,
+        name: userName,
+        review: userReview,
+      },
+    ];
+    setReview(newReview);
   };
 
   return (
@@ -30,19 +58,26 @@ const ReviewContainer = ({ addReview }) => {
         <div className="reviewContainer_mappedItems d-flex">
           {review.map((item) => {
             return (
-              <div className="reviewsContainer_review mt-4" key={item.id}>
-                <h3>{item.name}</h3>
-                <Box
-                  component="fieldset"
-                  mb={3}
-                  borderColor="transparent"
-                  className="rating_box"
-                >
-                  <Rating name="read-only" value={value} readOnly />
-                </Box>
-                <section>
-                  <p>{item.review}</p>
-                </section>
+              <div className="reviewsContainer_review" key={item.id}>
+                <div className="review_content_box">
+                  <h3>{item.name}</h3>
+                  <Box
+                    component="fieldset"
+                    mb={3}
+                    borderColor="transparent"
+                    className="rating_box"
+                  >
+                    <Rating
+                      name="read-only"
+                      className="user_rating"
+                      value={value}
+                      readOnly
+                    />
+                  </Box>
+                  <section>
+                    <p>{item.review}</p>
+                  </section>
+                </div>
               </div>
             );
           })}
@@ -61,16 +96,37 @@ const ReviewContainer = ({ addReview }) => {
             We will be forever grateful. Thank you in advance for helping us
             out!
           </p>
-          <input type="text" placeholder="Enter your name here" />
+          <input
+            type="text"
+            value={userName}
+            placeholder="Enter your name here"
+            onChange={handleName}
+          />
           <br />
           <textarea
             name="review"
             cols="30"
             rows="10"
-            value={userInput}
+            value={userReview}
             placeholder="Enter your valid comments here..."
-            onChange={handleChange}
+            onChange={handleReview}
           />
+          <section className="mt-3">
+            <Box
+              component="fieldset"
+              mb={3}
+              borderColor="transparent"
+              className="rating_box"
+            >
+              <p className="p-0 text-center">RATE US</p>
+              <Rating
+                name="read-only"
+                className="user_rating_input"
+                value={userRating}
+                onChange={handleRating}
+              />
+            </Box>
+          </section>
           <section className="review_Container_button_section">
             <button onClick={handleSubmit}>Submit</button>
           </section>

@@ -14,18 +14,39 @@
 }
 
 .reviewsContainer_review {
-  width: 300px;
-  height: 250px;
-  padding: 10px;
+  width: 700px;
+  height: 280px;
+  margin: 20px 0;
 }
 
 .reviewContainer_mappedItems {
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.reviewsContainer_review > section {
+.review_content_box {
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review_content_box > section {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: justify;
+}
+
+.review_content_box > section > p {
+  font-size: smaller;
+  padding: 10px !important;
 }
 
 .rating_box {
@@ -42,18 +63,18 @@
 }
 
 .review_Container_form {
-  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-top: 2px solid orangered;
   border-bottom: 2px solid orangered;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 .review_Container_form > p {
   width: 80%;
+
   text-align: justify;
 }
 
@@ -80,7 +101,7 @@
   border-radius: 5px;
   font-size: 16px;
   padding: 3px 10px;
-  margin: 10px 0;
+  margin: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   outline: none;
@@ -90,4 +111,20 @@
 .review_Container_button_section button:hover {
   color: #f64c08;
   background-color: white;
+}
+
+.rating_box {
+  margin-bottom: 0 !important;
+}
+.rating_box > .user_rating > span {
+  font-size: 20px;
+}
+
+.rating_box > p {
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.rating_box > .user_rating_input {
+  font-size: 25px;
 }
