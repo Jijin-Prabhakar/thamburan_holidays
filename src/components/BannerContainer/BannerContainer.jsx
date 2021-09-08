@@ -4,7 +4,7 @@ import "./BannerContainer.css";
 
 const BannerContainer = () => {
   return (
-    <div className="bannerContainer mt-2">
+    <div className="bannerContainer mt-3">
       <BannerContent />
     </div>
   );
