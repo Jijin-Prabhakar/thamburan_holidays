@@ -8,7 +8,7 @@ const About = () => {
     <Element id="about" className="about_container">
       <div className="container">
         <div className="row justify-content-center">
-          <h1 className="text-center mb-5">KNOW US</h1>
+          <h1 className="text-center mb-5">Know us</h1>
           <div className="col-md-6 mb-4">
             <img src={thamburanHolidays} alt="about" className="about_image" />
           </div>
