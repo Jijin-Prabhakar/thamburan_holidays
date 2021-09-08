@@ -41,9 +41,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="col-7 col-md-3 col-lg-2 col-xl-2 mx-auto mt-4 thamburan_footer_packages">
-                <h6 className="text-uppercase text-center fw-bold mb-4">
-                  PACKAGES
-                </h6>
+                <h6 className="text-uppercase fw-bold mb-4">PACKAGES</h6>
                 <p>
                   <a href="#!" className="text-reset">
                     Indian Tour Packages
@@ -66,9 +64,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-4 thamburan_footer_contact">
-                <h6 className="text-uppercase text-center fw-bold mb-4">
-                  Contact
-                </h6>
+                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
                   <i className="fas fa-home me-3"></i> Palakkad, Kerala, India.
                 </p>
