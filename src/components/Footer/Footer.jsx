@@ -8,16 +8,16 @@ const Footer = () => {
     <div className="footerContainer">
       <footer className="text-center text-lg-start bg-dark text-muted footerContainer pt-3">
         <section className="mb-0">
-          <div className="container text-center text-md-start p-2">
+          <div className="container text-center text-md-start">
             <div className="row">
-              <div className="col-md-3 col-lg-4 col-xl-3 d-flex mx-auto thamburan_footer_head">
+              <div className="col-md-3 col-lg-4 col-xl-3 thamburan_footer_head">
                 <img
                   src={thamburan}
                   alt="thamburan"
-                  className="thamburan_footer_logo"
+                  className="container-fluid thamburan_footer_logo"
                 />
               </div>
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mt-4">
                 <h6 className="text-uppercase fw-bold mb-4">SERVICES</h6>
                 <p>
                   <a href="#!" className="text-reset">
@@ -40,7 +40,7 @@ const Footer = () => {
                   </a>
                 </p>
               </div>
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4">
+              <div className="col-md-3 col-lg-2 col-xl-2  mt-4">
                 <h6 className="text-uppercase fw-bold mb-4">PACKAGES</h6>
                 <p>
                   <a href="#!" className="text-reset">
@@ -63,14 +63,14 @@ const Footer = () => {
                   </a>
                 </p>
               </div>
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-4">
+              <div className="col-md-4 col-lg-3 col-xl-3 mb-md-0 mt-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
                   <i className="fas fa-home me-3"></i> Palakkad, Kerala, India.
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3"></i>
-                  &nbsp;thamburanholidays@gmail.com
+                  thamburanholidays@gmail.com
                 </p>
                 <p>
                   <i className="fas fa-phone me-3"></i> + 91 9847519710

@@ -1,4 +1,5 @@
 .thamburan_footer_head {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -6,12 +7,6 @@
 
 .thamburan_footer_logo {
   width: 100%;
-  /* height: 200px; */
-}
-
-.thamburan_footer_head > p {
-  padding: 10px 0;
-  text-align: justify;
 }
 
 .thamburan_link {

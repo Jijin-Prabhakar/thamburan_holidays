@@ -12,17 +12,17 @@ import Contact from "./components/Contact/Contact";
 function App() {
   const [review, setReview] = useState(reviewData);
 
-  const addReview = (userInput) => {
-    let copy = [...review, { id: review.length + 1, review: userInput }];
-    setReview(copy);
-  };
+  // const addReview = (userInput) => {
+  //   let copy = [...review, { id: review.length + 1, review: userInput }];
+  //   setReview(copy);
+  // };
 
   return (
     <div className="App">
       <Header />
       <BannerContainer />
       <GalleryContainer />
-      <ReviewContainer addReview={addReview} />
+      <ReviewContainer />
       <Contact />
       <Footer />
     </div>

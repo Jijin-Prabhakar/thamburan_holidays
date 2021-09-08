@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark header_container fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -103,7 +103,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
