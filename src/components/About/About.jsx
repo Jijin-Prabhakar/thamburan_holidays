@@ -14,22 +14,13 @@ const About = () => {
           </div>
           <div className="col-md-6 mb-4 about_description">
             <p>
-              Travel Tours is the flagship leisure travel brand of FCTG
-              Australia, in India. Known for its range of customized travel
-              offerings, Travel Tours promises 'unbeatable' services both in
-              pricing and quality.
-              <br />
-              <br />
-              Currently, there are over 25 Travel Tours stores across all
-              leading cities in India Delhi-NCR, Mumbai, Pune, Ahmedabad,
-              Chandigarh, Bangalore, Hyderabad, Cochin, Chennai and Indore among
-              other cities.
-              <br />
-              <br />
-              Travel Tours has been formed by bringing together the erstwhile
-              Travel Tours, a strong brand in South India which has been in
-              existence since 1977 and Flight Shop, well-known in North and West
-              India.
+              We, Thamburan Holidays situated at Palakkad, Kerala, India are a
+              one stop shop for all the travel needs ranging from domestic to
+              international tours. We understand how important your holiday is
+              to you so we put all our efforts in making your trip memorable. We
+              believe your holiday should truly be an unforgettable experience,
+              from making your first enquiry until you return home from your
+              tour.
             </p>
           </div>
         </div>
