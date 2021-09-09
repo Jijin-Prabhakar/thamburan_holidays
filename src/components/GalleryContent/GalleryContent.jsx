@@ -4,9 +4,11 @@ import "./GalleryContent.css";
 const GalleryContent = ({ image }) => {
   return (
     <div className="galleryContent_Container">
-      <a href="#">
-        <img src={image} alt="Gallery Images" />
-      </a>
+      <div className="container-fluid">
+        <a href="#">
+          <img src={image} alt="Gallery Images" />
+        </a>
+      </div>
     </div>
   );
 };
