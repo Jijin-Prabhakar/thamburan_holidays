@@ -36,6 +36,22 @@
   align-items: center;
 }
 
+.contact-section_1 {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section_1 > p {
+  text-align: center;
+}
+
+.contact-section_2 {
+  text-align: left;
+}
+
 .thamburan_footer_logo {
   width: 100%;
 }

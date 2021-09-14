@@ -84,7 +84,7 @@ const Footer = () => {
                   Contact
                 </h6>
                 <div className="contact-section">
-                  <div>
+                  <div className="contact-section_1">
                     <p>
                       <i className="fas fa-home me-3"></i>
                     </p>
@@ -98,9 +98,9 @@ const Footer = () => {
                       <i className="fas fa-phone me-3"></i>
                     </p>
                   </div>
-                  <div>
-                    <p> Palakkad, Kerala, India.</p>
-                    <p>&nbsp;thamburanholidays@gmail.com</p>
+                  <div className="contact-section_2">
+                    <p>Palakkad, Kerala, India.</p>
+                    <p>thamburanholidays@gmail.com</p>
                     <p>+ 91 9847519710</p>
                     <p>+ 91 9846069563</p>
                   </div>
