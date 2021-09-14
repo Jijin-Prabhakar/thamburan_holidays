@@ -83,7 +83,29 @@ const Footer = () => {
                 <h6 className="text-uppercase text-center fw-bold mb-4">
                   Contact
                 </h6>
-                <p>
+                <div className="contact-section">
+                  <div>
+                    <p>
+                      <i className="fas fa-home me-3"></i>
+                    </p>
+                    <p>
+                      <i className="fas fa-envelope me-3"></i>
+                    </p>
+                    <p>
+                      <i className="fas fa-phone me-3"></i>
+                    </p>
+                    <p>
+                      <i className="fas fa-phone me-3"></i>
+                    </p>
+                  </div>
+                  <div>
+                    <p> Palakkad, Kerala, India.</p>
+                    <p>&nbsp;thamburanholidays@gmail.com</p>
+                    <p>+ 91 9847519710</p>
+                    <p>+ 91 9846069563</p>
+                  </div>
+                </div>
+                {/* <p>
                   <i className="fas fa-home me-3"></i> Palakkad, Kerala, India.
                 </p>
                 <p>
@@ -95,7 +117,7 @@ const Footer = () => {
                 </p>
                 <p>
                   <i className="fas fa-phone me-3"></i> + 91 9846069563
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

@@ -29,6 +29,13 @@
   margin-bottom: 5px;
 }
 
+.contact-section {
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .thamburan_footer_logo {
   width: 100%;
 }
