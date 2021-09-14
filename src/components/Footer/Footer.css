@@ -34,14 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.contact-section_1 {
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-left: 40px;
 }
 
 .contact-section_1 > p {
