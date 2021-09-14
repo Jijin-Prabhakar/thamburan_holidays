@@ -1,5 +1,5 @@
 import React from "react";
-import { Element } from "react-scroll";
+// import { Element } from "react-scroll";
 import "./Footer.css";
 import thamburan from "../../assets/thamburan1.jpg";
 
