@@ -10,6 +10,7 @@
 }
 
 .thamburan_footer_services > p {
+  font-size: smaller;
   margin-bottom: 5px;
 }
 
@@ -17,11 +18,14 @@
   text-align: center;
 }
 .thamburan_footer_packages > p {
+  font-size: smaller;
   margin-bottom: 5px;
 }
 
 .thamburan_footer_contact > p {
-  width: 100%;
+  font-size: smaller;
+  padding-left: 40px;
+  text-align: left;
   margin-bottom: 5px;
 }
 
@@ -30,5 +34,5 @@
 }
 
 .thamburan_link {
-  font-size: smaller;
+  font-size: x-small;
 }

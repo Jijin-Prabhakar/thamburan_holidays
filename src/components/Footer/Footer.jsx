@@ -7,7 +7,23 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <footer className="text-center text-lg-start bg-dark text-muted footerContainer pt-3">
-        <section className="mb-0">
+        <section className="d-flex justify-content-center justify-content-lg-center mx-auto p-3 border-bottom">
+          <div>
+            <a href="https://www.facebook.com/" className="me-4 text-reset">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" className="me-4 text-reset">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.google.com/" className="me-4 text-reset">
+              <i className="fab fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/" className="me-4 text-reset">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+        </section>
+        <section className="mb-3 pt-4">
           <div className="container text-center text-md-start">
             <div className="row">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto thamburan_footer_head">
@@ -17,7 +33,7 @@ const Footer = () => {
                   className="container-fluid thamburan_footer_logo"
                 />
               </div>
-              <div className="col-5 col-md-2 col-lg-2 mx-auto col-xl-2 mt-4 thamburan_footer_services">
+              <div className=" col-md-2 col-lg-2 mx-auto col-xl-2 mt-4 thamburan_footer_services">
                 <h6 className="text-uppercase fw-bold mb-4">SERVICES</h6>
                 <p>
                   <a href="#!" className="text-reset">
@@ -40,7 +56,7 @@ const Footer = () => {
                   </a>
                 </p>
               </div>
-              <div className="col-7 col-md-3 col-lg-2 col-xl-2 mx-auto mt-4 thamburan_footer_packages">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4 thamburan_footer_packages">
                 <h6 className="text-uppercase fw-bold mb-4">PACKAGES</h6>
                 <p>
                   <a href="#!" className="text-reset">
@@ -84,24 +100,8 @@ const Footer = () => {
             </div>
           </div>
         </section>
-        <section className="d-flex justify-content-center justify-content-lg-center mx-auto p-3 border-bottom">
-          <div>
-            <a href="https://www.facebook.com/" className="me-4 text-reset">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com/" className="me-4 text-reset">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.google.com/" className="me-4 text-reset">
-              <i className="fab fa-google"></i>
-            </a>
-            <a href="https://www.instagram.com/" className="me-4 text-reset">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
-        </section>
         <div
-          className="text-center thamburan_link p-2"
+          className="text-center thamburan_link p-2 border-top"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
           © 2021 Copyright :
