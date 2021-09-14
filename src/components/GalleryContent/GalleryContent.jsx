@@ -6,7 +6,7 @@ const GalleryContent = ({ image }) => {
     <div className="galleryContent_Container">
       <div className="container-fluid">
         <a href="#">
-          <img src={image} alt="Gallery Images" />
+          <img src={image} alt="Gallery Images" data-aos="zoom-in" />
         </a>
       </div>
     </div>

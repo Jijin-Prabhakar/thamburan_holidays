@@ -1,21 +1,21 @@
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import { useEffect } from "react";
+
+// Components
 import Header from "./components/Header/Header";
 import BannerContainer from "./components/BannerContainer/BannerContainer";
 import GalleryContainer from "./components/GalleryContainer/GalleryContainer";
 import ReviewContainer from "./components/ReviewContainer/ReviewContainer";
-
-import { useState } from "react";
-import reviewData from "./review.json";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 
 function App() {
-  const [review, setReview] = useState(reviewData);
-
-  // const addReview = (userInput) => {
-  //   let copy = [...review, { id: review.length + 1, review: userInput }];
-  //   setReview(copy);
-  // };
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
 
   return (
     <div className="App">

@@ -8,11 +8,13 @@ const About = () => {
     <Element id="about" className="about_container">
       <div className="container">
         <div className="row justify-content-center">
-          <h1 className="text-center mb-5">Know us</h1>
-          <div className="col-md-6 mb-4">
+          <h1 className="text-center mb-5" data-aos="zoom-in">
+            Know us
+          </h1>
+          <div className="col-md-6 mb-4" data-aos="fade-up">
             <img src={thamburanHolidays} alt="about" className="about_image" />
           </div>
-          <div className="col-md-6 mb-4 about_description">
+          <div className="col-md-6 mb-4 about_description" data-aos="fade-down">
             <p>
               We, Thamburan Holidays situated at Palakkad, Kerala, India are a
               one stop shop for all the travel needs ranging from domestic to

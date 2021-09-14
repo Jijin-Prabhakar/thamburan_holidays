@@ -59,8 +59,8 @@ const GalleryContainer = () => {
 
   return (
     <Element className="galleryContainer" id="gallery">
-      <h1>Gallery</h1>
-      <div className="galleryContainer_content">
+      <h1 data-aos="zoom-in">Gallery</h1>
+      <div className="galleryContainer_content" data-aos="fade-up">
         {gallery.map((items, index) => {
           return <GalleryContent key={index} image={items.img} />;
         })}

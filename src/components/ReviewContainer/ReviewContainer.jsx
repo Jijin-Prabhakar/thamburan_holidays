@@ -53,12 +53,16 @@ const ReviewContainer = () => {
 
   return (
     <Element className="container review_Container" id="reviews">
-      <h1>Reviews</h1>
+      <h1 data-aos="zoom-in">Reviews</h1>
       <div className="review_Container_mappedItems_form d-flex">
         <div className="reviewContainer_mappedItems d-flex">
           {review.map((item) => {
             return (
-              <div className="reviewsContainer_review" key={item.id}>
+              <div
+                className="reviewsContainer_review"
+                key={item.id}
+                data-aos="zoom-in"
+              >
                 <div className="review_content_box">
                   <h3>{item.name}</h3>
                   <Box
