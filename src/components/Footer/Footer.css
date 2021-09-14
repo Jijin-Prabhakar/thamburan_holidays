@@ -38,11 +38,11 @@
 }
 
 .contact-section_1 > p {
-  text-align: center;
+  margin-bottom: 5px;
 }
 
-.contact-section_2 {
-  text-align: left;
+.contact-section_2 > p {
+  margin-bottom: 5px;
 }
 
 .thamburan_footer_logo {
@@ -51,4 +51,12 @@
 
 .thamburan_link {
   font-size: x-small;
+}
+
+/* Icons */
+.fa-facebook-f,
+.fa-twitter,
+.fa-google,
+.fa-instagram {
+  font-size: large;
 }

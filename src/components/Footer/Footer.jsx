@@ -6,8 +6,8 @@ import thamburan from "../../assets/thamburan1.jpg";
 const Footer = () => {
   return (
     <div className="footerContainer">
-      <footer className="text-center text-lg-start bg-dark text-muted footerContainer pt-3">
-        <section className="d-flex justify-content-center justify-content-lg-center mx-auto p-3 border-bottom">
+      <footer className="text-center text-lg-start bg-dark text-muted footerContainer">
+        <section className="d-flex justify-content-center justify-content-lg-center mx-auto pt-3 pb-3 border-bottom">
           <div>
             <a href="https://www.facebook.com/" className="me-4 text-reset">
               <i className="fab fa-facebook-f"></i>
