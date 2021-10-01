@@ -3,23 +3,23 @@ import { Element } from "react-scroll";
 import reviewData from "../../review.json";
 import "./ReviewContainer.css";
 
-import Rating from "@material-ui/lab/Rating";
-import Box from "@material-ui/core/Box";
+// import Rating from "@material-ui/lab/Rating";
+// import Box from "@material-ui/core/Box";
 
 const ReviewContainer = () => {
   const [review, setReview] = useState(reviewData);
   const [userName, setUserName] = useState();
-  const [value, setValue] = useState(3);
-  const [userRating, setUserRating] = useState();
+  // const [value, setValue] = useState(3);
+  // const [userRating, setUserRating] = useState();
   const [userReview, setUserReview] = useState();
 
   const handleName = (e) => {
     setUserName(e.target.value);
   };
 
-  const handleRating = (e) => {
-    setUserRating(e.target.value);
-  };
+  // const handleRating = (e) => {
+  //   setUserRating(e.target.value);
+  // };
 
   const handleReview = (e) => {
     setUserReview(e.target.value);
@@ -31,8 +31,8 @@ const ReviewContainer = () => {
     addReview(userName);
     setUserName("");
     // Rating
-    addReview(userRating);
-    setUserRating("");
+    // addReview(userRating);
+    // setUserRating("");
     // Review
     addReview(userReview);
     setUserReview("");
@@ -43,7 +43,7 @@ const ReviewContainer = () => {
       ...review,
       {
         id: review.length + 1,
-        rating: userRating,
+        // rating: userRating,
         name: userName,
         review: userReview,
       },
@@ -65,7 +65,7 @@ const ReviewContainer = () => {
               >
                 <div className="review_content_box">
                   <h3>{item.name}</h3>
-                  <Box
+                  {/* <Box
                     component="fieldset"
                     mb={3}
                     borderColor="transparent"
@@ -77,7 +77,7 @@ const ReviewContainer = () => {
                       value={value}
                       readOnly
                     />
-                  </Box>
+                  </Box> */}
                   <section>
                     <p>{item.review}</p>
                   </section>
@@ -115,7 +115,7 @@ const ReviewContainer = () => {
             placeholder="Enter your valid comments here..."
             onChange={handleReview}
           />
-          <section className="mt-3">
+          {/* <section className="mt-3">
             <Box
               component="fieldset"
               mb={3}
@@ -130,8 +130,8 @@ const ReviewContainer = () => {
                 onChange={handleRating}
               />
             </Box>
-          </section>
-          <section className="review_Container_button_section">
+          </section> */}
+          <section className="review_Container_button_section mt-3 mb-2">
             <button onClick={handleSubmit}>Submit</button>
           </section>
         </form>
